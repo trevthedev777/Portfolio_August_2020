@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a3dce2af8c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Trevor Lehmann | Contact Me</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/logo.png" alt="My Portfolio" id="logo"/>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section A : Contact Form  -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-titile">Contact Me</h2>
+        <p class="lead">Here is how you can reach me</p>
+        <form  action="https://formspree.io/xgendljq"
+        method="POST">
+          <div class="text-fields">
+            <input
+              type="text"
+              name="name"
+              class="text-input name-input"
+              placeholder="Name"
+            />
+            <input
+              type="text"
+              name="subject"
+              class="text-input subject-input"
+              placeholder="Subject"
+            />
+            <input
+              type="email"
+              name="_replyto"
+              class="text-input email-input"
+              placeholder="Email Address"
+              valid
+            />
+            <input
+              type="text"
+              name="phone"
+              class="text-input phone-input"
+              placeholder="Phone Number"
+            />
+            <textarea
+              class="text-input message-input"
+              name="message"
+              placeholder="Enter Message"
+            ></textarea>
+          </div>
+          <button type="submit"class="btn-dark">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section B : COntact Info  -->
+    <section id="contact-b" class="py-3 bg-dark">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>trevor@trevorlehmann.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Phone</h3>
+            <p>+27 69 067 7206</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Address</h3>
+            <p>
+              7 Parkland Manor, 699 Cascades Street, Little Falls, Johannesburg,
+              South Africa
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section C : Tag Line  -->
+    <section id="contact-c" class="bg-main py-4">
+      <div class="container">
+        <h1>Let's Start Your Next Project</h1>
+      </div>
+    </section>
+  </body>
+
+  
+  <!-- Footer -->
+  <footer id="main-footer">
+    <div class="footer-content container">
+      <p>Copyright &copy; 2020. All Rights Reserved</p>
+      <div class="social">
+        <a href="http://www.twitter.com/trevitray"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="http://www.instagram.com/trevitray"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/trevor-lehmann-aa275069/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+    </div>
+  </footer>
+</html>
